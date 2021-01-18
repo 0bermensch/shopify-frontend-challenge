@@ -1,0 +1,21 @@
+.search {
+  padding-left: 3%;
+  width: 50%;
+  &__title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-left: 15%;
+    font-weight: bold;
+  }
+  &__wrapper {
+    padding-left: 10%;
+    margin-bottom: 20px;
+  }
+  &__result {
+    padding-left: none;
+    list-style-type: none;
+  }
+  &__result--item {
+    margin-bottom: 20px;
+  }
+}

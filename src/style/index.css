@@ -1,0 +1,181 @@
+.header {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0 10%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header__title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header__name {
+  padding-top: 20px;
+}
+
+.nominate {
+  width: 50%;
+}
+
+.nominate__title {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10%;
+  margin-bottom: 50px;
+}
+
+.search {
+  padding-left: 3%;
+  width: 50%;
+}
+
+.search__title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-left: 15%;
+  font-weight: bold;
+}
+
+.search__wrapper {
+  padding-left: 10%;
+  margin-bottom: 20px;
+}
+
+.search__result {
+  padding-left: none;
+  list-style-type: none;
+}
+
+.search__result--item {
+  margin-bottom: 20px;
+}
+
+.moviecard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.moviecard__poster {
+  width: 75px;
+  height: 110px;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 15px;
+  display: block;
+  color: transparent;
+}
+
+.moviecard__filterposter {
+  width: 75px;
+  height: 110px;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 15px;
+  display: block;
+  color: transparent;
+}
+
+.moviecard__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.moviecard__info--title {
+  font-size: 1.25rem;
+  color: #032541;
+  font-weight: 600;
+  margin: 0;
+}
+
+.moviecard__info--releasedate {
+  font-size: 1.25rem;
+  color: #032541;
+  font-weight: 300;
+  margin: 0;
+}
+
+.moviecard__nominatebtn {
+  padding: 10px 15px;
+  background-color: green;
+  color: #032541;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  line-height: 1.1;
+  margin-right: 10px;
+}
+
+.moviecard__removenominate {
+  padding: 10px 15px;
+  background-color: red;
+  color: #032541;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  line-height: 1.1;
+  margin-right: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  background-color: white;
+}
+
+.space {
+  height: 20vh;
+}
+
+.content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=index.css.map */
