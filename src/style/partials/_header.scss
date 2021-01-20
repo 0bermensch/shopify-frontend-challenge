@@ -1,14 +1,14 @@
 .header {
   width: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 0 10%;
-  justify-content: space-evenly;
   &__title {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 1000;
+    text-align: center;
   }
   &__name {
-    padding-top: 20px;
+    text-align: end;
   }
 }

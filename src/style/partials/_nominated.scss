@@ -1,9 +1,14 @@
 .nominate {
   width: 50%;
+  text-align: center;
+  padding-right: 3%;
+  height: 100vh;
   &__title {
     font-size: 30px;
     font-weight: bold;
-    padding-left: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+  }
+  &__movies {
+    padding-left: 15%;
   }
 }

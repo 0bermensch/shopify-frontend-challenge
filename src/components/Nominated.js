@@ -32,7 +32,7 @@ export const Nominated = () => {
             ))}
           </div>
         ) : (
-          <h2 className="no-movie">No Movies Nominated</h2>
+          <h2 className="nominate__nomovie">No Movies Nominated</h2>
         )}
       </div>
     </div>
